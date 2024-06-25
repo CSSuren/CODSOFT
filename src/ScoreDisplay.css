@@ -1,0 +1,18 @@
+.score-display {
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  font-family: "Roboto", sans-serif;
+  color: #4caf50;
+  animation: popIn 0.5s ease-in-out;
+}
+
+@keyframes popIn {
+  from {
+    transform: scale(0.9);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
