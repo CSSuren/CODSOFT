@@ -22,7 +22,7 @@ Features
 
 Installation
 
-    Clone the repository: git clone https://github.com/CSSuren/QuizApp-using-react.git
+    Clone the repository: git clone https://github.com/CSSuren/CODSOFT.git
     
     Navigate to the project directory: cd quizapp
     
