@@ -1,0 +1,44 @@
+@keyframes slideIn {
+  0% {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.score-container {
+  width: 80%;
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #1e1e1e;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+  padding: 20px;
+  text-align: center;
+  color: #fff;
+  animation: slideIn 0.5s ease forwards;
+}
+
+.score-container h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.score-container p {
+  font-size: 1.2rem;
+}
+
+.summary {
+  margin-top: 1.5rem;
+  background-color: #2e2e2e;
+  padding: 15px;
+  border-radius: 10px;
+  animation: slideIn 0.5s ease forwards;
+}
+
+.summary p {
+  margin: 0.5rem 0;
+}
