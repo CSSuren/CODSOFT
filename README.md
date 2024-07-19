@@ -18,6 +18,8 @@ Features
     
     Display the final score at the end of the quiz.
 
+    Included a timer function to enhance user engagement and challenge.
+
 Installation
 
     Clone the repository: git clone https://github.com/CSSuren/QuizApp-using-react.git
